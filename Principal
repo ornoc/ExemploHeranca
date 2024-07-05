@@ -1,0 +1,18 @@
+package ExemploHeranca;
+
+public class Principal {
+    public static void main (String[]args){
+        Motorista m1 = new Motorista( "Jonas", "Silva", 1);
+
+        // m1.setNome("Jonas");
+        // m1.setSobrenome("Silva");
+        // m1.setMatricula(1);
+
+        Engenheiro e1 = new Engenheiro( "Ana", "Oliveira", 2, "123");
+
+        // e1.setNome("Ana");
+        // e1.setSobrenome("Oliveira");
+        // e1.setMatricula(2);
+        // e1.setCrea("123");
+    }
+}
